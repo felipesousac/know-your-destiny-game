@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Descubra seu destino</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <button onclick="toggleTheme()">Alterar Tema</button>
+    </header>
+    <div id="container">
+      <img
+        src="./assets/cristal-ball.svg"
+        alt="Imagem de uma bola de cristal"
+      />
+      <h1>Vou revelar seu destino!</h1>
+      <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
+      <input id="inputQuestion" type="text" placeholder="Digite sua pergunta" />
+      <button id="button">Fazer Pergunta</button>
+
+      <div id="typedQuestion"></div>
+      <h3 id="resposta"></h3>
+    </div>
+  </body>
+</html>
